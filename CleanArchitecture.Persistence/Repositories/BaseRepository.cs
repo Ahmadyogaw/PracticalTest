@@ -39,4 +39,6 @@ public class BaseRepository<T> : IBaseRepository<T> where T : BaseEntity
     {
         return Context.Set<T>().ToListAsync(cancellationToken);
     }
+
+    // public
 }

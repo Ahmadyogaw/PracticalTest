@@ -10,4 +10,5 @@ public class DataContext : DbContext
     }
 
     public DbSet<User> Users { get; set; }
+    public DbSet<Logger>  Loggers { get; set; }
 }
